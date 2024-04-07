@@ -21,10 +21,11 @@ public class Client {
             case DELIVERING:
                 System.out.println("Service is delivering.");
                 break;
-            default:
+            default: //DELIVERED
                 System.out.println("Service is delivered.");
                 break;
         }
+        //if...else if...else
     }
 
     public List<Service> getBookedServices(){

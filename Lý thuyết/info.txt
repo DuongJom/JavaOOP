@@ -1,0 +1,12 @@
+protected và private đều là access modifier.
+protected: giới hạn khả năng truy cập của member
+    - trong cùng package: member có thể truy cập
+    - khác package: member không thể truy cập
+private: giới hạn khả năng truy cập của member, member chỉ có thể truy cập trong bản thân class khai báo nó
+public: không giới hạn khả năng truy cập của member
+
+getter: trả về giá trị của private/protected property members
+setter: thay đổi giá trị của private/protected property members
+
+Member có sử dụng từ khóa static giúp truy cập member mà không cần phải tạo instance của class
+Member không có sử dụng từ khóa static thì muốn truy cập member cần phải tạo instance của class

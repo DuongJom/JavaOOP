@@ -11,8 +11,10 @@ public class Driver {
     }
 
     public void acceptedService(Service service) {
-        service.setStatus(ServiceStatus.DELIVERING);
-        this.takenServices.add(service);
+        if(this.takenServices.toArray().length < 1){
+            service.setStatus(ServiceStatus.DELIVERING);
+            this.takenServices.add(service);
+        }
     }
 
     public void deliveredServices(Service service) {
