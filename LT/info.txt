@@ -10,3 +10,5 @@ setter: thay đổi giá trị của private/protected property members
 
 Member có sử dụng từ khóa static giúp truy cập member mà không cần phải tạo instance của class
 Member không có sử dụng từ khóa static thì muốn truy cập member cần phải tạo instance của class
+
+Method overriding: những method có cùng tên nhưng khác nhau về kiểu dữ liệu của tham số, số lượng tham số truyền vào hoặc kiểu trả về của method.
